@@ -1,1 +1,118 @@
-/* Add your styles here. */
+body {
+  background-color: #b9b693;
+  color: #000000;
+  font-family: Times New Roman, serif;
+}
+
+h1, h2, h3 {
+  font-family: Times New Roman, serif;
+  color: #000000;
+}
+
+#main-heading {
+  padding-bottom: 10px;
+}
+ 
+.navbar {
+  background-color: #085b0c;
+}
+ 
+.nav-item {
+  color: #f3ecd8;
+  padding: 15px;
+  display: inline-block;
+}
+ 
+.nav-item:hover {
+  background-color: #a33d2e;
+  color: #ffffff;
+}
+
+.nav-item.active {
+  border-bottom: 5px solid #a33d2e;
+}
+ 
+.content-box {
+  background-color: #ffffff;
+  border-left: 5px solid #b5651d;
+  padding: 15px;
+  margin: 20px;
+}
+
+.box-two {
+  background-color: #046d0b;
+  color: #f3ecd8;
+  padding: 12px;
+  margin: 20px;
+}
+
+.media-container, .media-pic {
+  text-align: center;
+  margin: 20px;
+}
+ 
+.media-container img, .media-pic img {
+  max-width: 100%;
+  border: 1px solid #ffffff;
+}
+ 
+.highlight-text {
+  background-color: #b5651d;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 2px 3px;
+}
+ 
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  width: 90%;
+}
+ 
+th, td {
+  border: 1px solid #b5651d;
+  padding: 8px;
+  text-align: center;
+}
+ 
+th {
+  background-color: #000000;
+  color: #ffffff;
+}
+ 
+a {
+  color: #000000;
+}
+ 
+a:hover {
+  color: #0084ff;
+}
+ 
+.footer-links {
+  background-color: #010102;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 20px;
+}
+ 
+.footer-links a {
+  color: #f3ecd8;
+}
+ 
+@media (max-width: 600px) {
+  .navbar {
+    text-align: center;
+  }
+ 
+  .nav-item {
+    display: block;
+  }
+ 
+  #main-heading {
+    font-size: 22px;
+  }
+}
+
+.table {
+  background-color: #ffffff;
+}

@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>TODO: give your page a title</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Build your page here. -->
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Baseball Guide - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="A stater guide to learning the fundamentals of baseball, including rules and teams.">
+    <script async src="https://googletagmanager.com"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="nav-item active">Home</a>
+      <a href="page2.html" class="nav-item">Rules</a>
+      <a href="page3.html" class="nav-item">Teams</a>
+    </nav>
+    <h1 id="main-heading">Welcome to the Baseball Guide</h1>
+    <div class="content-box">
+      <p class="primary-text">Baseball is a popular sport that uses a bat and ball that is played between two opposing teams.</p>
+      <p class="secondary-text">The objective of the game is to score more <span class="highlight-text">runs</span> than the opponent</p>
+      <p class="secondary-text">The two teams take turns playing offense by hitting the ball and defense by fielding the ball.</p>
+    </div>
+    <div class="media-pic">
+      <img src="baseball-bat-glove.webp" alt="There is a Baseball a bat and a glove all laying on the grass of a baseball field" width="600">
+    </div>
+    <div class="box-two">
+      <h2>Baseball Fundamentals</h2>
+      <ul>
+        <li>Hitting</li>
+        <li>Pitching</li>
+        <li>Fielding</li>
+      </ul>
+    </div>
+    <h3>Game Statistics Summary</h3>
+    <table class="table">
+      <tr>
+        <th>Statistic</th>
+        <th>Abbreviation</th>
+        <th>What It Measures</th>
+      </tr>
+      <tr>
+        <td>Batting Average</td>
+        <td>AVG</td>
+        <td>Abatter's hits divided by their at-bats</td>
+      </tr>
+      <tr>
+        <td>Home Runs</td>
+        <td>HR</td>
+        <td>Times a batter hits the ball out of the park</td>
+      </tr>
+      <tr>
+        <td>Runs Batted In</td>
+        <td>RBI</td>
+        <td>Runs that score as a result of a batter's action</td>
+      </tr>
+      <tr>
+        <td>Earned Run Average</td>
+        <td>ERA</td>
+        <td>The average number of earned runs a pitcher allows per nine innings</td>
+      </tr>
+    </table>
+    <footer class="footer-links">
+      <p>
+        <a href="https://github.com" rel="follow">Course Page</a>
+        <a href="https://rtealwitter.com" rel="follow">Instructor Page</a>
+      </p>
+    </footer>
+  </body>
 </html>
